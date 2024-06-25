@@ -1,0 +1,9 @@
+2048 is played on a grid of squares. Each square can either be empty, or contain a numbered tile.
+
+The player chooses a direction (using the arrow keys) to tilt the board: north, south, east, or west. All tiles slide in that direction until there is no empty space left in the direction of motion.
+
+As a tile slides, it can possibly merge with another tile with the same number. Each time two tiles merge to form a larger tile, the player earns the number of points on the new tile. This is implemented in Tasks 4-10.
+
+One tile (with value 2 or 4) is randomly generated when the game begins. After each tilt, if the tilt did not change the board state, then no new tiles will be randomly generated. Otherwise, a single randomly generated tile will be added to the board on an empty square. 
+
+The game ends when the current player has no available moves (no tilt can change the board), or a move forms a square containing 2048. This is implemented in Tasks 1-3.
